@@ -1,3 +1,5 @@
+execute pathogen#infect()
+
 set history=500
 
 filetype plugin on
