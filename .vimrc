@@ -62,3 +62,15 @@ map <leader>t<leader> :tabnext
 
 " always show statusline
 set laststatus=2
+
+" NERDTree
+map <leader>nn :NERDTreeToggle<cr>
+
+" ALE
+let g:ale_linters = {
+\   'javascript': ['jshint'],
+\   'python': ['flake8'],
+\   'go': ['go', 'golint', 'errcheck']
+\}
+
+nmap <leader>a :ALEToggle<cr>
