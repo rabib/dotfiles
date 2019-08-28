@@ -73,6 +73,8 @@ let g:ale_linters = {
 \   'go': ['go', 'golint', 'errcheck']
 \}
 
+let g:ale_enabled = 0
+
 nmap <leader>a :ALEToggle<cr>
 
 " vimtex
