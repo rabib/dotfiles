@@ -83,3 +83,5 @@ let g:vimtex_quickfix_latexlog = {
           \   'default' : 0,
           \ },
           \}
+
+let g:vimtex_view_method = "skim"
