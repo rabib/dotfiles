@@ -79,8 +79,10 @@ nmap <leader>a :ALEToggle<cr>
 
 " vimtex
 let g:vimtex_quickfix_latexlog = {
+          \ 'general' : 0,
           \ 'overfull' : 0,
           \ 'underfull' : 0,
+          \ 'references': 0,
           \ 'packages' : {
           \   'default' : 0,
           \ },
