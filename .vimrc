@@ -89,3 +89,15 @@ let g:vimtex_quickfix_latexlog = {
           \}
 
 let g:vimtex_view_method = "skim"
+
+" lightline
+let g:lightline = {
+    \ 'colorscheme': 'peaksea',
+    \ 'active': {
+    \   'left': [ [ 'mode', 'paste' ],
+    \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+    \ },
+    \ 'component_function': {
+    \   'gitbranch': 'fugitive#head'
+    \ },
+    \ }
