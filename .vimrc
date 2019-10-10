@@ -90,6 +90,11 @@ let g:vimtex_quickfix_latexlog = {
 
 let g:vimtex_view_method = "skim"
 
+" LaTeX macros
+map <leader>bd i\begin{definition}<cr>\end{definition}<esc>kA
+map <leader>be A<cr>\begin{equation}<cr>\end{equation}<esc>kA<cr>
+map <leader>ba A<cr>\begin{align}<cr>\end{align}<esc>kA<cr>
+
 " lightline
 let g:lightline = {
     \ 'active': {
